@@ -1,0 +1,15 @@
+#Lourdes Garcia A01551772
+def ave(a):
+    return sum(a)/ len(a)
+
+a= []
+counter= 0
+from statistics import stdev
+
+while (counter<10) :
+    y= float(input("Give me a number: "))
+    a.append(y)
+    counter= counter + 1
+
+print("The average is: ", ave(a))
+print("The standard deviation is: ", stdev(a))
